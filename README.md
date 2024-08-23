@@ -1,78 +1,31 @@
-<div align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
+**Study-Sphere**
 
-# StudyBuddy
-</div>
+🤝 **Introduction**  
+An interactive social networking platform designed to facilitate collaborative learning. StudyBud allows users to create and join study rooms focused on various topics, enabling real-time communication and knowledge sharing. With advanced search functionality, user authentication, and a responsive design, StudyBud provides a seamless and engaging user experience tailored for learners.
 
-### Cloning the repository
+⚙️ **Tech Stack**
+- Django
+- Python
+- HTML
+- CSS
+- Django Channels
+- Bootstrap
 
---> Clone the repository using the command below :
-```bash
-git clone https://github.com/divanov11/StudyBud.git
+🔋 **Features**
+👉 **Secure Authentication**: Robust user login and registration system ensuring secure access to the platform.
 
-```
+👉 **Home Page with Study Room Feed**: Displays a dynamic feed of active study rooms, allowing users to quickly join and engage in discussions.
 
---> Move into the directory where we have the project files : 
-```bash
-cd StudyBud
+👉 **Search and Filter Functionality**: Users can easily search and filter study rooms based on topics, keywords, or participants.
 
-```
+👉 **Real-time Chat Rooms**: Enables users to communicate in real-time within study rooms, mimicking the functionality of popular platforms like Discord.
 
---> Create a virtual environment :
-```bash
-# Let's install virtualenv first
-pip install virtualenv
+👉 **Profile Management**: Users can view and manage their profiles, including all posts and study rooms they’ve created or joined.
 
-# Then we create our virtual environment
-virtualenv envname
+👉 **Activity Feed**: A live feed that showcases recent activities across the platform, enhancing user engagement and interaction.
 
-```
+👉 **Topic-based Study Rooms**: Users can create and join study rooms centered around specific topics, promoting focused and effective learning sessions.
 
---> Activate the virtual environment :
-```bash
-envname\scripts\activate
+👉 **Responsive Design**: Ensures a seamless and visually appealing experience across all devices and screen sizes.
 
-```
-
---> Install the requirements :
-```bash
-pip install -r requirements.txt
-
-```
-
-#
-
-### Running the App
-
---> To run the App, we use :
-```bash
-python manage.py runserver
-
-```
-
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
-
-#
-
-### App Preview :
-
-<table width="100%"> 
-<tr>
-<td width="50%">      
-&nbsp; 
-<br>
-<p align="center">
-  Feed Home
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
-</td>
-</table>
-
-
+👉 **Profile Page Customization**: Users can customize their profiles, including uploading profile pictures and editing personal details.
